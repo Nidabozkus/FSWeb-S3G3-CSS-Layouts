@@ -1,1 +1,59 @@
-/* CSS stillerinizi buraya girin */
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  border: 2px solid rebeccapurple;
+}
+.header {
+  text-align: center;
+}
+* {
+  color: darkslateblue;
+}
+h1 {
+  font-family: "Roboto";
+  margin: 20px 0;
+  font-size: 50px;
+  text-align: center;
+}
+h2,
+h3,
+h4 {
+  font-family: "Roboto";
+  margin: bottom 0;
+  padding: 0, 10px;
+  font-size: 25px;
+}
+p {
+  font-size: 14px;
+  font-family: "Roboto";
+  padding: 10px;
+  line-height: 1.4;
+}
+
+img {
+  border-radius: 25px;
+}
+
+.content-row {
+  display: flex;
+}
+.content-row img {
+  max-width: 200px;
+  max-height: 200px;
+  flex-flow: row, wrap;
+  //justify-content: baseline;
+}
+
+.container header nav a {
+  margin: 0 10px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: rgb(227, 214, 227);
+  text-decoration: none;
+  margin-bottom: 20px;
+  background: purple;
+}
